@@ -6,7 +6,7 @@ export default function Chat() {
   const { messages, input, handleInputChange, handleSubmit } = useChat();
 
   return (
-    <div style={{ backgroundImage: "url('/bgg.jpg')", height:"100vh" }}>
+
 
     <div className="flex flex-col w-full max-w-md py-24 mx-auto stretch">
       {messages.map(m => (
@@ -25,6 +25,6 @@ export default function Chat() {
         />
       </form>
     </div>
-    </div>
+
   );
 }
